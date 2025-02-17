@@ -1,4 +1,7 @@
-# Koa.js RBAC API
+# Task Manager Backend using Koa.js
+
+![image](https://github.com/user-attachments/assets/18300ff0-1292-4b4f-94b0-97258f344075)
+
 
 ## 🚀 Overview
 This is a **Role-Based Access Control (RBAC) API** built using **Koa.js**.  
