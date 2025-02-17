@@ -29,13 +29,25 @@ It provides a **RESTful API** with user authentication, task management, and rea
    1.  Install Dependencies
    npm install
     
-   2.  Configure Environment VariablesCopy the example .env file and update the values as needed:cp .env.example .envOpen .env and set:PORT=5000MONGO\_URI=mongodb://localhost:27017/task-managementJWT\_SECRET=your\_secret\_key
+2.  Configure Environment VariablesCopy the example .env file and update the values as needed:
+   ```sh
+   cp .env.example  .env and set:
+   ```
+   PORT=3000
+   MONGO\_URI=mongodb://localhost:27017/task-management
+   JWT\_SECRET=your\_secret\_key
     
-   3.  Start MongoDBEnsure MongoDB is running locally or provide a cloud database URI in .env.
+4.  Start MongoDBEnsure MongoDB is running locally or provide a cloud database URI in .env.
     
-   4.  Seed the DatabaseRun the seeder to populate the database with users, admins, and tasks:npm run seedThis creates admin and user accounts and sample tasks.Admin Credentials:Email: admin@gmail.comPassword: password
+5.  Seed the DatabaseRun the seeder to populate the database with users, admins, and tasks:
+```sh
+    npm run seed
+```
+   This creates admin and user accounts and sample tasks.Admin Credentials:
+    Email: admin@gmail.com
+    Password: 123456
     
-   5.  Start the Servernpm startBackend API will be available at: http://localhost:5000/
+   7.  Start the Servernpm startBackend API will be available at: http://localhost:3000/
     
 
 Authentication & Role-Based Access Control
