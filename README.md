@@ -28,7 +28,6 @@ It provides a **RESTful API** with user authentication, task management, and rea
 ``
  1.  Install Dependencies
 ```sh
-  
    npm install
 ```
 2.  Configure Environment VariablesCopy the example .env file and update the values as needed:
