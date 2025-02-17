@@ -25,14 +25,17 @@ It provides a **RESTful API** with user authentication, task management, and rea
    ```sh
    git clone https://github.com/helmiabdefattah/task-manager.git
    cd task-manager
-
-   1.  Install Dependencies
+``
+ 1.  Install Dependencies
+```sh
+  
    npm install
-    
+```
 2.  Configure Environment VariablesCopy the example .env file and update the values as needed:
    ```sh
-   cp .env.example  .env and set:
+   cp .env.example  .env 
    ```
+   and set:
    PORT=3000
    MONGO\_URI=mongodb://localhost:27017/task-management
    JWT\_SECRET=your\_secret\_key
